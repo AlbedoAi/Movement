@@ -59,7 +59,6 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
     private void flipPlayer() 
     {
         if (Input.GetAxisRaw("Horizontal") > 0)
